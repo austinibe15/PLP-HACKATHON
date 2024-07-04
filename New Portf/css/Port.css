@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  background: #fff;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+#header-home {
+  background-image: url(/photo/pb5.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+
+#main-nav ul li {
+  border: 2px solid rgb(24, 24, 34); /* 2px width and black color border for each li */
+  padding: 10px; /* Add padding inside the border for spacing */
+  margin: 0 5px; /* Add margin between li elements */
+  background-color: rgb(241, 248, 243);
+}
+
+#main-nav ul li:hover {
+  background-color: rgb(0, 174, 255); /* Text background-color on hover for anchor links */
+}
+
+
+.header-content {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 45%;
+  
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+.header-content h1 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.lead1 {
+  position: absolute;
+  color:#fff;
+  margin-left:53%;
+  }
+
+
+.lead2 {
+  font-size: 1em;
+  font-weight: bolder;
+  font-style: italic;
+  color: #faaaaa;
+  margin-right: 25%;
+}
+
+.btn-light {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #131010;
+  margin-left: 42%;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-light:hover {
+  background-color: aquamarine;
+}
+
+#header-inner {
+  background-image: url(/photo/pb5.png);
+  height:2.5rem;
+  border-bottom: 2px solid #444;
+}
+
+
+.section-title {
+  font-size: 2em;
+  color: #333;
+}
+
+.bottom-line {
+  width: 50px;
+  height: 2px;
+  background-color: #007bff;
+  margin: 20px auto;
+}
+
+.specials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.specials div {
+  text-align: left;
+}
+
+.specials h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.specials p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.process h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.process p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.process-icon {
+  border-radius: 50%;
+  background: #666;
+  color: #fff;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  transition: all 1s;
+}
+
+.process-icon-hover {
+  background: #666;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+}
+
+.process-icon-hover .process-step {
+  background: #666;
+}
+
+/* Set the size of the bio image */
+.bio-image img {
+  max-width: 25%; /* Ensure the image does not exceed the container width */
+  margin-right: 25%;
+  margin-top: 5%;
+  height: auto; /* Maintain aspect ratio of the image */
+  display: block; /* Ensure the image is displayed as a block element */
+}
+
+/* Adjust the size of the bio text container */
+.bio {
+  padding: 2rem; /* Increase padding for better spacing */
+ }
+
+/* Adjust the size of the bio text */
+.bio h4 {
+  position: relative;
+  right: 48px;
+  font-size: 1.5rem; /* Increase font size for heading */
+  margin-right: 70%;
+}
+
+.bio p {
+  position: absolute;
+  top:50%;
+  font-size: 2rem; /* Set font size for paragraph text */
+  font-style: italic;
+  margin-left: 35%;
+  text-align: center;
+  margin-bottom: 200%;
+}
+
+
+
+
+
+/* Footer */
+#main-footer {
+  background: #0c0c0c;
+  color: #fff;
+  height: 5rem;
+  margin-bottom: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  
+}
+
+.social .fab {
+  margin-right: 1rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;  
+}
+
+.social .fab:hover {
+  background-color: grey;
+}
